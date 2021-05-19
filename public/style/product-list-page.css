@@ -1,0 +1,70 @@
+* {
+  font-family: cursive;
+}
+
+body {
+  height: 50vh;
+  padding-bottom: 6rem;
+};
+
+h1.title {
+  font-size: 2rem;
+}
+
+button.btn.btn-outline-success, button.btn.btn-outline-danger {
+  color: black;
+  border-color: grey;
+  box-shadow: 2px 4px 9px;
+  border-radius: 2px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+div.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  gap: 1rem;
+}
+
+div.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid darkgrey;
+  box-shadow: 1px 5px 9px grey;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+div.checkbox {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+section.navbar {
+  border-bottom: 1px solid grey;
+  margin-bottom: 2rem;
+}
+
+section.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid grey;
+  height: 4rem;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+section.footer p {
+  margin-bottom: 0;
+  margin:0;
+}

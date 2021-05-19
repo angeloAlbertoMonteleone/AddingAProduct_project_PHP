@@ -1,0 +1,85 @@
+* {
+  font-family: cursive;
+}
+
+
+body {
+  font-family: cursive;
+  height: 50vh;
+  padding-bottom: 6rem;
+};
+
+h1.title {
+  font-size: 2rem;
+}
+
+button.btn.btn-outline-success, button.btn.btn-outline-danger {
+  color: black;
+  border-color: grey;
+  box-shadow: 2px 4px 9px;
+  border-radius: 2px;
+}
+
+button#dropdownMenuButton.btn.btn-secondary.dropdown-toggle{
+  background: linear-gradient(45deg, black, transparent);
+    box-shadow: 2px 4px 9px black;
+    border: white;
+}
+
+input {
+  box-shadow: 4px 3px 5px grey;
+  border: 1px solid grey;
+}
+
+input#input_option_1, input#input_option_2, div.option_3 input {
+  width: 100%;
+}
+
+section.container {
+  max-width: 950px;
+}
+
+.option_1 , .option_2{
+  display: none;
+  border: 1px solid darkgrey;
+  box-shadow: 1px 5px 9px grey;
+  padding: 21px;
+  width: 335px;
+  height: 30vh;
+}
+
+.option_3 {
+  display: none;
+  border: 1px solid darkgrey;
+  box-shadow: 1px 5px 9px grey;
+  padding: 21px;
+  width: 335px;
+  height: 240px;
+}
+
+
+section.navbar {
+  border-bottom: 1px solid grey;
+  margin-bottom: 2rem;
+}
+
+section.main {
+  min-height: 62vh;
+}
+
+section.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid grey;
+  height: 4rem;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+section.footer p {
+  margin-bottom: 0;
+  margin:0;
+}

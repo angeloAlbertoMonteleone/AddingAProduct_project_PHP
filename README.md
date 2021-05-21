@@ -8,4 +8,4 @@ Features Product-list-page: Delete Post (with MassDelete Button to send a reques
 
 https://angeloalbertomnt.000webhostapp.com/public/adding-a-product-page.php
 
-<img src="addingAProduct_page.JPG" width="400px"> 
+<img src="addingAProduct_page.JPG" width="800px"> 
